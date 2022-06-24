@@ -40,7 +40,7 @@ char generateUsername(char email[20], char username[20]){  //determine username 
 		else username[i]=email[i];
 	}
 }
-////////////////////////////////////////
+////////////////////////////////////////::
 void takepassword(char pwd[20]){         // fonction lire password et l'affiche des etoiles a l'entrer 
 	int i;
 	char ch;
@@ -185,7 +185,7 @@ void modifier_salle()//Fonction pour modifier une salle
 			scanf("%d",&S.de);
 			printf("\ndonner la fin de la reservation a modifier: \n");
 			scanf("%d",&S.jusq);
-			//nouveau données
+			//nouveau donnï¿½es
 			 printf("\n\n         \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd  NOUVELLES VALEURS  \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n\n");
 			printf("\n\ndonner a nouveau le nom de la salle : \n");
 			scanf("%s",S2.ID);
